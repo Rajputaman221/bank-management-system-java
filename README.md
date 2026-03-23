@@ -7,19 +7,19 @@ The system allows users to manage banking operations like creating banks, branch
 
 ---
 
-## 🚀 Features
+## Features
 
-* ✅ Bank Management (Create, View, Update, Delete)
-* ✅ Branch Management
-* ✅ Customer Management
-* ✅ Account Management
-* ✅ Loan Management
-* ✅ Relationship Mapping using Hibernate (JPA)
-* ✅ Console-based interactive menu system
+*  Bank Management (Create, View, Update, Delete)
+* Branch Management
+* Customer Management
+* Account Management
+* Loan Management
+* Relationship Mapping using Hibernate (JPA)
+* Console-based interactive menu system
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Java**
 * **Hibernate (JPA)**
@@ -29,7 +29,7 @@ The system allows users to manage banking operations like creating banks, branch
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 com.banksystem
@@ -54,36 +54,36 @@ com.utiltiy
 
 ## 🔗 Entity Relationships
 
-* 🏦 One Bank → Many Branches
-* 🏢 One Branch → Many Accounts
-* 👥 One Customer → Multiple Accounts
-* 🔄 Many-to-Many → Loans & Accounts
+* One Bank → Many Branches
+*  One Branch → Many Accounts
+*  One Customer → Multiple Accounts
+*  Many-to-Many → Loans & Accounts
 
 ---
 
 ## ⚙️ How to Run the Project
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```
 git clone https://github.com/YOUR_USERNAME/bank-management-system-java.git
 ```
 
-### 2️⃣ Open in IDE
+### 2️ Open in IDE
 
 * IntelliJ IDEA / Eclipse
 
-### 3️⃣ Configure Database (PostgreSQL)
+### 3️ Configure Database (PostgreSQL)
 
 * Database Name: `hibernateDB`
 * Username: `postgres`
 * Password: `your_password`
 
-### 4️⃣ Configure Hibernate
+### 4️ Configure Hibernate
 
 Update your `hibernate.cfg.xml` or `persistence.xml` with DB credentials.
 
-### 5️⃣ Run the Application
+### 5️ Run the Application
 
 Run:
 
